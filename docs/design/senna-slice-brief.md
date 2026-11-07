@@ -20,7 +20,7 @@ The player's own ship, fitted with starter racing parts.
 
 - **Controls:** throttle, pitch, yaw, roll, boost, and a stabilize button. Keyboard/mouse and gamepad.
 - **Feel:** responsive but heavy enough that lining up an entry takes planning. **[prototype guess]**
-- **Camera:** third-person chase cam, plus an optional cockpit view.
+- **Camera:** third-person chase cam. *(Logan, 2026-11-07)*
 
 ## Momentum Line behaviour **[prototype guess, since the detailed physics are OPEN in the lore]**
 
@@ -29,13 +29,14 @@ The player's own ship, fitted with starter racing parts.
 | **Spotting** | The Line shows as a ribbon of cloud and streaming particles, and nearby plants lean toward it. |
 | **Entry** | The entry is graded on angle and speed. A clean entry gives a big speed boost and full stability. A poor entry gives less speed and some shake. A bad entry throws the ship out. |
 | **Riding** | The Line carries the ship with little thrust. The player steers to stay in the core, where it's fastest. Drifting toward the edge adds turbulence. |
-| **Leaving** | Leaving on purpose keeps most of the speed. Getting thrown out costs speed and control for a few seconds. There's no crash or death in the first version. |
+| **Leaving** | Leaving on purpose keeps most of the speed. A bad exit **wrecks the ship** *(Logan, 2026-11-07)*. The player respawns at the last checkpoint, and the lost time is the penalty. **[prototype guess: checkpoint respawn]** |
 | **Risk** | The fastest stretch of the Line runs close to the canyon walls. |
 
 ## Test course
 
-One canyon map built from placeholder shapes:
+One canyon map built from placeholder shapes *(canyon confirmed by Logan, 2026-11-07)*:
 
+- Checkpoints every 15–20 seconds of flying, used for respawns. **[prototype guess]**
 - A start straight, then a canyon with **two routes**:
   - **Safe route:** an open valley. Easy flying, no Line, slower.
   - **Line route:** a tight entry under a stone arch that leads into the Momentum Line. Faster if you hit the entry, slower if you miss it.
@@ -55,8 +56,8 @@ The slice works if:
 
 Ship parts and upgrades (step 4), mechanics, the Worldline, cities, Houses, story, final art, and multiplayer.
 
-## Open questions for Logan
+## Decisions
 
-1. Is a third-person chase cam right, or should cockpit view be the main one?
-2. Should a bad Line exit ever wreck the ship, or only cost time?
-3. Is a canyon the right setting for the first course, or would you prefer mountains, a storm, or a city?
+- **Camera:** chase cam.
+- **Bad Line exit:** wrecks the ship, with a respawn at the last checkpoint.
+- **First setting:** a canyon.
