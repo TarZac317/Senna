@@ -18,7 +18,9 @@ git clone https://github.com/TarZac317/Senna.git
 
 Or in GitHub Desktop: *File → Clone repository → TarZac317/Senna*.
 
-## 3. Create the Unreal project (first time only)
+## 3. Add the Unreal project (first time only)
+
+**Already made the project?** Skip to step 5 and copy your existing `Senna` project folder's files in.
 
 Unreal won't create a project inside a folder that already has files in it, so create the project somewhere else and then move it in.
 
