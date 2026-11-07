@@ -7,6 +7,7 @@ Pilots ride Momentum Lines, which are fast and dangerous air currents, and the b
 - Lore: [docs/lore](docs/lore/README.md)
 - Getting started: [docs/getting-started.md](docs/getting-started.md)
 - Folder layout: [docs/project-layout.md](docs/project-layout.md)
+- Senna slice design brief: [docs/design/senna-slice-brief.md](docs/design/senna-slice-brief.md)
 
 ## Roadmap
 
